@@ -1,0 +1,139 @@
+$primary: #dddddd !default; $secondary: #222222 !default; $tertiary: #0f82af !default; $quaternary: #c14924 !default; $header_background: #111111 !default; $header_primary: #dddddd !default; $highlight: #a87137 !default; $danger: #e45735 !default; $success: #1ca551 !default; $love: #00aeff !default; $selected: #d1f0ff !default; $hover: #f2f2f2 !default;  $public_image_path: "https://d3mle2j3as33lk.cloudfront.net/en/blizzard/images";  @import "common/foundation/variables"; @import "common/foundation/mixins"; $font-blizzard-regular: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/25b0846fa266799af18e40ff073b7a235fc05b3e.woff");$font-blizzard-light: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/06a9928a6c953bfb5ef6bb3f6d84bf0f0a322f51.woff");$blizzard-banner-di-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/bc4c29f71c819cc96646cc3bf02574928294bb54.png");$font-blizzard-bold: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/c7b362dbb978629c578f5b3143216c0de8729dd5.woff");$blizzard-banner-di-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/bb4a565a94e894105f00aebc121be380cbeef26a.png");$font-opensans-regular: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/ccb2928581a3c20b8ce60e4f7e44f9316237b1ad.woff");$blizzard-background-di-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/2caf2d0db57fe77989414ae350bac976713d5355.png");$blizzard-logo-di-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/d5b0d45adcdf3535792816de31a12d343babb9fa.png");$blizzard-logo-wcrumble-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/06a49286180c023f178be95d866c8e913d1d1b96.png");$blizzard-wcrumble-watermark-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/9f98269110bd3e0f5a51cf7c2c27d813210fbe1d.svg");$font-opensans-light: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/4dadcef625a5374ff5ff2632d5984ae4d7129a85.woff");$blizzard-logo-di-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/adb47e9871f38ec4392f0d746856717ce882e68d.png");$font-opensans-semibold: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/be71462c31af5b4bbf9d3e94d2b12a80a4713171.woff");$font-opensans-bold: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/52cb5d4b83ee044d0c4246e6fe89c3f4ccc7c447.woff");$blizzard-background-repeat: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e6b91e6554dab02e489e97341af8a6b93458d462.png");$font-objectsans-bold: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/b438401e7f42c6296fc55cd91a331e0dcfe731fd.woff");$font-notosans-regular: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/40876fc4ed69b41c89257a7b3413e4f0dd56122a.woff");$font-notosans-light: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8007c41c7efbd2ab3973cfeda06108b2aa247efc.woff");$font-notosans-bold: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/d4fa822f287c1dc9a6f6ee745e07bd533c0390e5.woff");$blizzard-loading: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/fe3ef2306789482b8e14e65d5e026478d43ece90.png");$blizzard-spinner-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/6de90434266a559f809640b72d751f0341250afb.webp");$blizzard-spinner-large: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/097625ab32266f9aafe661362c4786fd9c4c0ade.webp");$blizzard-icon-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/de08854933de7c35f2365ece3066bb49970e0db5.svg");$blizzard-watermark-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/1684d1a874aea25b9bce28eb3bbf397784158096.svg");$blizzcon-online-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/d31b4e169a461ea2c4d5edf611ad37aa602666f5.png");$blizzard-banner-d2r-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8f3c565fb720ab91dec026d572de6ee9fa8860b1.png");$blizzard-banner-d2r-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/5f88daa1e1ff0ae304fab2c7a9d5d518427d7a0e.png");$blizzard-banner-wcrumble-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e27b73aab7ad23722a6e4746d8ac3ad0928882de.png");$blizzard-logo-wcrumble-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/9564708331b9b0a55a1c3a93d098b7067a2392d1.png");$blizzard-background-d2r-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/d1f8b6e4983a1c68b9797122884bf04220b37d21.png");$blizzard-banner-d3-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/204d2fd7fa89188683084281bd5e5865d091e268.png");$blizzard-background-wow-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8627fade026a73db0f692c1eae27e2d7725d101c.png");$blizzard-banner-d3-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/61ffade8922a460fbf1c190790d462325204cf93.png");$blizzard-logo-d2r-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/d492609ccc6f7e963f1908b7af566bd7fcbd0002.png");$blizzard-logo-d2r-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/06f741095bb642a45951b754d20f076955c800cd.png");$blizzard-logo-d3-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/21c1659096b0e44c76cdb7e17c859bf52dc8667d.png");$blizzard-logo-d3-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e5fe7f13401b348cbffd67b2d9da2fb932380cb4.png");$blizzard-logo-sc2-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/4ca9e2e5c2e61070fb744077b2a5f319360cbc4c.png");$blizzard-logo-sc2-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/663ec685a0def402760e9e6182f3e999b4408d0f.png");$blizzard-logo-wow-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/c25ecd26fdeb41dbf4564bd861776a86a2ed1297.png");$blizzard-logo-wow-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/babb4d1d8581474028f5a2bcf0cc709ec6e139f3.png");$blizzard-wow-watermark-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/08425cb74500fc813e44d04141316877a72d1452.svg");$blizzard-logo-warcraft3-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/5adf4a4bd69e3fc2de10e3577244cbd92839b936.png");$blizzard-logo-warcraft3-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8f5a03f6e6a04dc2d6b3d82152e7b99d02adfbd5.png");$blizzard-logo-hearthstone-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/c706effa5d8f068a04d1269399707ca6cf291951.png");$blizzard-logo-hearthstone-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8004862917532defb0b8f27fa27aa8619eb9e6c0.png");$blizzard-hearthstone-watermark-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e93a5f3fdd8148162c315dec5f2dfdd1abef417a.svg");$blizzard-logo-starcraft-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/d5d27fb2371ac23c4d5f1cc1b7368c2dfe37901c.png");$blizzard-logo-starcraft-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/56d6e732ed79a8b757570b0902b1652f1f1a1709.png");$blizzard-background-d3-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/a3c3b94ff0f2b201f804c315d60d3f1a8c392774.png");$blizzard-banner-sc2-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/918c6e7360e23573dc09839e9259e0c654b3e9fa.png");$blizzard-banner-sc2-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/df7fca2166b35ed2d38ee2ce4aa24b9e2347c3e6.png");$blizzard-background-sc2-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/b61c0f77604bf972c2f1829b1a11395daca5dbf7.png");$blizzard-banner-warcraft3-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e34f5b206efeaa99c306d115559640f66a4b989f.png");$blizzard-banner-warcraft3-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/9768079775e9f53650f14a361ea0cf75c8d0a2a8.png");$blizzard-background-warcraft3-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/78140ed668ef9bbfd8829d4d75cc3c94d59774cf.png");$blizzard-banner-hearthstone-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/99dba436e9f33ffa71705cb44f5c486e1cf11947.png");$blizzard-banner-hearthstone-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/0cc84cf79536cacf5f692daaffe146b9670930d0.png");$blizzard-background-hearthstone-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/ee5c996354847d456e240786fd8c861a44f441fe.png");$blizzard-banner-starcraft-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/5c5a27d143fb14df68e51582e25c7f4d7d2f3b5c.png");$blizzard-logo-blizzard-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/c784d76886eaef7a3dc4eee73f0e69141d5a95fe.png");$blizzard-logo-blizzard-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/c784d76886eaef7a3dc4eee73f0e69141d5a95fe.png");$blizzard-logo-heroes-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/40b42b591e421aa7cc4e626971eb84f3f63dc413.png");$blizzard-logo-overwatch-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/2b5708c8bb669a8ed716b9a17bbf53c1a71875e3.svg");$blizzard-logo-overwatch-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/263ec4aaa01fc3b0764a030347c0d67da33a7037.svg");$blizzard-overwatch-watermark-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/263ec4aaa01fc3b0764a030347c0d67da33a7037.svg");$blizzard-logo-heroes-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/ef65c2f16a775e21874ee213a3bd7e32b8fafc1c.png");$blizzard-heroes-watermark-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/a9258283110c5d15bb34a70279535015192c0881.svg");$blizzard-logo-blizzcon-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/ea66b73f7836ca4f8ebbf7c9fa85501d069efe81.png");$blizzard-logo-blizzcon-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/45ee3de799d9398695ac4e52be84462cbda6118e.png");$blizzard-banner-overwatch-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/b5711ba4ff75093902f5e0f4eb345ba9c8b56640.png");$blizzard-banner-overwatch-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/4b357b0f46189ca1c89c12c2d840dbbc7e5a54cc.png");$blizzard-background-overwatch-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/c44650461e1da4789cd2aa9e7a9fae0f8e5191b0.png");$icon-wow-globe: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/43e43ef2d6c782ccb6573bc6304b60c8b14e8753.png");$blizzard-banner-wow: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/f3454b9e684a2a517c46d88c5e09099b0cd3adb5.png");$blizzard-banner-wow-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/44a47c3ff32b7fc26de9bcbc85bab9d23c1512b9.png");$blizzard-logo-overwatch-dark: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/3a48267d372974d051c7d793628c99d259b31ce7.png");$blizzard-logo-overwatch-small-dark: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/0129f67646e53935a53f699cabead8e626f0c605.svg");$blizzard-logo-blizzcon-small-alt: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/de7f334476af9c1e8b5dd8df8fa2a77b5a5ac7d0.png");$blizzard-banner-starcraft-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/706566302e89ed5a80d56ea35b258dd22a2e79d4.png");$blizzard-background-starcraft-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/0c75d4b4a1c0264201cc616ec2c41d710f0ccc76.png");$blizzard-banner-heroes-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8bd0633dc9f1759bdfe09cc0e964617431e59b1a.png");$blizzard-banner-heroes-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/13690bb94f84191bd650992aee84b29a7f267058.png");$blizzard-background-heroes-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/9912389e7ba44e397fda8951cd190b5b0c09e840.png");$blizzard-background-blizzcon-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/7bf7cd8b89a82279637c960f8391fd79f4577c9c.png");$blizzard-banner-wcrumble-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/222f8d3da776523f11441dcf73d4b8985c2f4333.png");$blizzard-background-wcrumble-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/85631e0b7d6347d9eecd42b6350edba51a517b17.png");$blizzard-banner-blizzcon-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e059d5f68a5dbf0382a3bbe7a87d43320eed9000.png");$blizzard-background-d4-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/f7fd1a69dca7dacab5c41aa944c4859c783c09f4.png");$blizzard-logo-d4-small: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/3ffc037dd63d5e34e4770b6b263773f1e00ad02e.png");$blizzard-banner-d4-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/083af416dff53e987726550bb6b2655ccd2ec123.png");$blizzard-banner-d4-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/e820775b0daba7f359230cbfb691f8360c7e264b.png");$blizzard-logo-d4-game: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/3a9ed8685fdc35ad885bc1a8e26ea85eb4c2e5b7.png");$blizzcon-2023-logo: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/1b79964ffd919b2dfe517a2dd2ee01318159265e.png");$blizzard-banner-blizzcon-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/cb0eac375bbfe515dc4c973d015f1284539e8b3e.png");$blizzard-banner-blizzard-glass: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/47e46712083fc49360758ce1ea814a21dde57016.png");$blizzard-banner-blizzard-mobile: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/ba3cfed8d82cbb127d3fae120cef64c267e0a8c5.png");$blizzard-background-blizzard-top: unquote("https://ds3fp1mnrtl6k.cloudfront.net/original/1X/8d69b6d9e96aa9bf56d14d1d26d49ab76d0d1a84.png");$franchise: unquote("blizzard");// Theme: Blizzard
+// Target: common scss
+// Last Edited: 2024-09-17 00:04:29 UTC
+//TODO: update imports to use
+@import "_variables";
+@import "_mixins";
+
+@import "fonts";
+@import "blizzard-common";
+@import "tracking";
+
+@import "materials/atoms/button";
+@import "materials/atoms/b-warning";
+@import "materials/atoms/b-post-status";
+@import "materials/atoms/input";
+@import "materials/atoms/icon";
+@import "materials/atoms/d-tooltip";
+@import "materials/atoms/post-count";
+@import "materials/atoms/presence";
+@import "materials/atoms/quote-button";
+@import "materials/molecules/autocomplete";
+@import "materials/molecules/avatar-selector-modal";
+@import "materials/molecules/bread-crumbs";
+@import "materials/molecules/dropdown";
+@import "materials/molecules/b-category";
+@import "materials/molecules/b-category-small";
+@import "materials/molecules/b-realms-list";
+@import "materials/molecules/b-subcategory";
+@import "materials/molecules/b-welcome";
+@import "materials/molecules/bootbox-modal";
+@import "materials/molecules/character-details";
+@import "materials/molecules/topic-avatar";
+@import "materials/molecules/topic-list-item";
+@import "materials/molecules/topic-footer-buttons";
+@import "materials/molecules/first-notification";
+@import "materials/molecules/menu-panel";
+@import "materials/molecules/b-banner-message";
+@import "materials/molecules/list-area";
+@import "materials/molecules/polls";
+@import "materials/molecules/popup-menu";
+@import "materials/molecules/post-controls";
+@import "materials/molecules/reorder-categories-modal";
+@import "materials/molecules/select-box";
+@import "materials/molecules/selected-posts";
+@import "materials/molecules/share-link";
+@import "materials/molecules/signup-cta";
+@import "materials/molecules/tagging";
+@import "materials/molecules/suggested-topics";
+@import "materials/molecules/shared-draft-controls";
+@import "materials/molecules/topic-progress";
+@import "materials/molecules/trigger-user-card";
+@import "materials/molecules/modal-body";
+@import "materials/organisms/about";
+@import "materials/organisms/categories-list";
+@import "materials/organisms/category-boxes";
+@import "materials/organisms/composer";
+@import "materials/organisms/error-page";
+@import "materials/organisms/group";
+@import "materials/organisms/navigation";
+@import "materials/organisms/page-header";
+@import "materials/organisms/search";
+@import "materials/organisms/posts";
+@import "materials/organisms/topic-list";
+@import "materials/organisms/topic-timeline";
+@import "materials/organisms/topic-map";
+@import "materials/organisms/topic-post";
+@import "materials/organisms/topic-small-action";
+@import "materials/organisms/topic-title";
+@import "materials/organisms/latest-topic-list";
+@import "materials/organisms/user-card";
+@import "materials/organisms/user-about";
+@import "materials/organisms/user-activity";
+@import "materials/organisms/user-messages";
+@import "materials/organisms/user-navigation";
+@import "materials/organisms/user-notifications";
+@import "materials/organisms/user-preferences";
+@import "materials/organisms/user-summary";
+@import "materials/organisms/review";
+
+@import "blizzard-admin";
+
+@import "themes/override/blizzard";
+@import "themes/override/blizzcon";
+@import "themes/override/d2r";
+@import "themes/override/d3";
+@import "themes/override/d4";
+@import "themes/override/diabloimmortal";
+@import "themes/override/hearthstone";
+@import "themes/override/heroes";
+@import "themes/override/overwatch";
+@import "themes/override/sc2";
+@import "themes/override/starcraft";
+@import "themes/override/warcraft3";
+@import "themes/override/warcraftrumble";
+@import "themes/override/wow";
+@import "themes/override/mobile-app";
+
+:root {
+  --font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  --heading-font-family: "Object Sans", Helvetica, Arial, sans-serif;
+  --quaternary: #{$color-theme-primary};
+  --quaternary-low: #{$color-theme-primary};
+  --d-hover: rgba(242, 242, 242, 1);
+  --d-selected: #e9e9e9;
+}
+
+// push elements like topic timeline further down
+html.desktop-view.not-mobile-device body {
+  @media all and (min-width: $navbar-mobile-breakpoint-width) {
+    --header-offset: 48px;
+  }
+}
+
+.fk-d-menu .dropdown-menu__item:hover,
+.fk-d-menu .dropdown-menu__item:active {
+  background: none;
+  color: var(--d-hover);
+  border-color: var(--d-hover);
+}
+.fk-d-default-toast__close-container .btn {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+// Theme: Blizzard
+// Target: desktop scss
+// Last Edited: 2024-09-17 00:04:29 UTC
+@import "_variables";
+@import "_mixins";
+
+@import "desktop-materials/molecules/navigation-bar";
+@import "desktop-materials/molecules/topic-list-item";
+@import "desktop-materials/organisms/composer";
+@import "desktop-materials/organisms/header";
+@import "desktop-materials/organisms/history";
+@import "desktop-materials/organisms/navigation";
+@import "desktop-materials/organisms/topic-post";
+@import "desktop-materials/organisms/topic-title";
+@import "desktop-materials/organisms/user-about";
