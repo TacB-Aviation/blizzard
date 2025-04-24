@@ -1,12 +1,6 @@
 {
-  "name": "Blizzard Theme",
-  "about_url": "https://github.com/TacB-Aviation/blizzard", 
-  "license_url": "proprietary",
-  "authors": "ZephyrSPT",
-  "theme_version": "1.0",
-  "minimum_discourse_version": "2.7.0",
-  "assets": {},
-  "color_schemes": {},
-  "components": {},
-  "settings": {}
+  "name": "LCPDFR",
+  "about_url": "https://www.lcpdfr.com/",
+  "version": "0.1",
+  "authors": ["ZephyrSPT"]
 }
