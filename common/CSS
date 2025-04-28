@@ -1,0 +1,16 @@
+.group-community-mods .topic-list-item .title:after, 
+.group-community-mods .latest-topic-list-item .title:after {
+    content: "✔ Mod Posted";
+    color: var(--secondary);
+    background: var(--success);
+    border-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 7px;
+    border-radius: 2em;
+    font-size: var(--font-down-2);
+    line-height: var(--line-height-small);
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-left: .5em;
+    transform: translateY(-1px);
+}
